@@ -11,6 +11,7 @@ class App extends Component {
       //Código JSX -> JS
       <div className="App">
         <h1>Hi, I'm a React App.</h1>
+        <Person/>
       </div>
     );
 
