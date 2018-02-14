@@ -1,5 +1,8 @@
 import React, { Component } from 'react'; //importados da biblioteca react - default / named
 import './App.css';
+import Person from './Person/Person'; //.js pode ser omitido pois é incluído automaticamente
+                                      //Componente importado com nome em letra maíscula pois letra miníscula é
+                                      //reservado para elementos HMTL. 
 
 //Componente principal
 class App extends Component {
