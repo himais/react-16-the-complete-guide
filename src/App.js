@@ -5,10 +5,15 @@ import './App.css';
 class App extends Component {
   render() { //importante sempre retornar um html para ser renderizado
     return (
+      //Código JSX -> JS
       <div className="App">
         <h1>Hi, I'm a React App.</h1>
       </div>
     );
+
+    //Código JSX após ser compilado para ser renderizado
+    //Estrutura: React.createElement(elemento a ser renderizado, configuração, elementos filho);
+    //return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\'m a React App'));
   }
 }
 
