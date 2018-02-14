@@ -11,11 +11,11 @@ class App extends Component {
       //Código JSX -> JS
       <div className="App">
         <h1>Hi, I'm a React App.</h1>
-        <Person name="Name" age="21"/>
-        <Person name="Nime" age="25"/>
-        <Person name="Nome" age="29"/>
+        <Person name="Name" age="21">I like: jabuti</Person>
+        <Person name="Nime" age="25">I like: banana</Person>
+        <Person name="Nome" age="29">I like: âmbar</Person>
       </div>
-    );
+    )
 
     //Código JSX após ser compilado para ser renderizado
     //Estrutura: React.createElement(elemento a ser renderizado, configuração, elementos filho);
