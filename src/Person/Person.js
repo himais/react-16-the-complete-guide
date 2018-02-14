@@ -4,4 +4,4 @@ const person = () => { //usando arrow function e colocando em uma constante
     return <p>I'm a person!</p>
 };
 
-export person; //exportando para usar em outro lugar
+export default person; //exportando para usar em outro lugar
